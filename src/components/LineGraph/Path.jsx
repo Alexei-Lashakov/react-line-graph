@@ -9,9 +9,9 @@ const Path = ({ strokeWidth, path }) => {
     <>
       <defs>
         <linearGradient id='grad1' x1={"0%"} x2={"50%"} x3={"100%"}>
-          <stop offset='0%' stop-color='#7e8dfb' stop-opacity='0.1' />
-          <stop offset='50%' stop-color='#7e8dfb' stop-opacity='0.25' />
-          <stop offset='100%' stop-color='#7e8dfb' stop-opacity='1' />
+          <stop offset='0%' stopColor='#7e8dfb' stopOpacity='0.1' />
+          <stop offset='50%' stopColor='#7e8dfb' stopOpacity='0.25' />
+          <stop offset='100%' stopColor='#7e8dfb' stopOpacity='1' />
         </linearGradient>
       </defs>
       <path
@@ -23,10 +23,10 @@ const Path = ({ strokeWidth, path }) => {
       <circle
         cx={cx}
         cy={cy}
-        r='5'
+        r={5}
         fill='#959aff'
         stroke='white'
-        strokewidth='2'
+        strokeWidth={2}
       />
     </>
   );
