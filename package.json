@@ -24,11 +24,11 @@
   },
   "homepage": "https://github.com/umairnadeem/react-line-graph#readme",
   "dependencies": {
-    "react": "^16.9.0",
+    "react": "17.0.2",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
-    "react": ">=16.8.0",
+    "react": "17.0.2",
     "prop-types": ">=15.7.2"
   },
   "devDependencies": {
@@ -38,7 +38,7 @@
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.6",
     "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.14.0",
+    "@wojtekmaj/enzyme-adapter-react-17": "0.6.7",
     "eslint": "^6.2.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-plugin-import": "^2.18.2",
@@ -47,7 +47,7 @@
     "eslint-plugin-react-hooks": "^1.7.0",
     "jest": "^24.9.0",
     "path": "^0.12.7",
-    "react-dom": "^16.9.0",
+    "react-dom": "17.0.2",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7",
     "webpack-dev-server": "^3.8.0"
